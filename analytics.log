@@ -1,0 +1,1754 @@
+Data lake tables initialized successfully
+Data Analytics & AI/ML Infrastructure running on port 7100
+WebSocket server ready for real-time analytics
+Available Features:
+  ✓ Centralized Data Lake
+  ✓ Patient Demand Prediction
+  ✓ Drug Usage Forecasting
+  ✓ Occupancy Prediction
+  ✓ AI Triage Bot
+  ✓ Billing Fraud Detection
+  ✓ Patient Risk Scoring
+Data Lake: Aggregating data every hour
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async /root/hospital-management-system/data-analytics-simple.js:773:24 {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async /root/hospital-management-system/data-analytics-simple.js:773:24 {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error predicting patient demand: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async predictPatientDemand (/root/hospital-management-system/data-analytics-simple.js:343:24) {
+  length: 107,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '87',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error detecting fraud: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async detectFraud (/root/hospital-management-system/data-analytics-simple.js:570:24) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '175',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error calculating risk score: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async calculateRiskScore (/root/hospital-management-system/data-analytics-simple.js:652:24) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '233',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error calculating risk score: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async calculateRiskScore (/root/hospital-management-system/data-analytics-simple.js:652:24) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '233',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async /root/hospital-management-system/data-analytics-simple.js:773:24 {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async /root/hospital-management-system/data-analytics-simple.js:773:24 {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error predicting patient demand: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async predictPatientDemand (/root/hospital-management-system/data-analytics-simple.js:343:24) {
+  length: 107,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '87',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error detecting fraud: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async detectFraud (/root/hospital-management-system/data-analytics-simple.js:570:24) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '175',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Automatic aggregation failed: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Automatic aggregation failed: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Automatic aggregation failed: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Automatic aggregation failed: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Automatic aggregation failed: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Automatic aggregation failed: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Automatic aggregation failed: error: relation "patients" does not exist
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 108,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '375',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1449',
+  routine: 'parserOpenTable'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Error aggregating data: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}
+Automatic aggregation failed: error: operator does not exist: integer = uuid
+    at /root/hospital-management-system/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateDataToLake (/root/hospital-management-system/data-analytics-simple.js:207:32)
+    at async Timeout._onTimeout (/root/hospital-management-system/data-analytics-simple.js:887:9) {
+  length: 200,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No operator matches the given name and argument types. You might need to add explicit type casts.',
+  position: '431',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_oper.c',
+  line: '635',
+  routine: 'op_error'
+}

@@ -1,0 +1,3 @@
+HMS Backend running on port 5801
+WebSocket server ready
+Health check: http://localhost:5801/api/health
